@@ -161,6 +161,35 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ff78e9cf20b4a7d4f89eeba943596749, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &147739605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 147739606}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &147739606
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 147739605}
+  m_LocalRotation: {x: -0.09961649, y: 0.106655434, z: -0.2675519, w: 0.952427}
+  m_LocalPosition: {x: -4.03, y: 0.98600006, z: 1.557}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -7.5730004, y: 14.688001, z: -32.502003}
+  m_Children:
+  - {fileID: 677535827}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
 --- !u!1001 &165929896
 Prefab:
   m_ObjectHideFlags: 0
@@ -800,7 +829,7 @@ GameObject:
   - 23: {fileID: 677535824}
   - 95: {fileID: 677535823}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Globe Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -877,13 +906,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 677535822}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.03, y: 0.98600006, z: 1.557}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.421, y: 0.42, z: 0.42}
-  m_LocalEulerAnglesHint: {x: 0, y: 19.62001, z: 322.38}
+  m_LocalEulerAnglesHint: {x: 0, y: 72, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 147739606}
+  m_RootOrder: 0
 --- !u!4 &698164697 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000011376827500, guid: fb3f572dbed21524f93030ca3909b75d,
