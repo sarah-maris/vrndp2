@@ -799,6 +799,7 @@ GameObject:
   - 135: {fileID: 677535825}
   - 23: {fileID: 677535824}
   - 95: {fileID: 677535823}
+  - 114: {fileID: 677535828}
   m_Layer: 0
   m_Name: Globe Sphere
   m_TagString: Untagged
@@ -884,6 +885,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 147739606}
   m_RootOrder: 0
+--- !u!114 &677535828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 677535822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25417d8bf1f59504ebb38891f9cc4c63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimationName: ToggleRotation
+  stateMachine: {fileID: 677535823}
 --- !u!4 &698164697 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000011376827500, guid: fb3f572dbed21524f93030ca3909b75d,
