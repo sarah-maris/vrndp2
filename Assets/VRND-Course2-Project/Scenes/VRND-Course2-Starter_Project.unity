@@ -841,6 +841,31 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012506226982, guid: 398ff0c48ad886342b3c3a533501ca78,
+        type: 2}
+      propertyPath: m_MotionVectors
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012506226982, guid: 398ff0c48ad886342b3c3a533501ca78,
+        type: 2}
+      propertyPath: m_ReceiveShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012506226982, guid: 398ff0c48ad886342b3c3a533501ca78,
+        type: 2}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012506226982, guid: 398ff0c48ad886342b3c3a533501ca78,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012506226982, guid: 398ff0c48ad886342b3c3a533501ca78,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 62d74f027521bb642baa38b8aa0a3b38, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 398ff0c48ad886342b3c3a533501ca78, type: 2}
   m_IsPrefabParent: 0
@@ -2027,7 +2052,12 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 86d4e2ee1fbafad4892a12042c162f1a, type: 2}
+      objectReference: {fileID: 2100000, guid: 9a3a5fd2fba377a419d7acef614dab3e, type: 2}
+    - target: {fileID: 23000011794721738, guid: af91439951b2b6548aeebb0319a13e12,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9a3a5fd2fba377a419d7acef614dab3e, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: af91439951b2b6548aeebb0319a13e12, type: 2}
   m_IsPrefabParent: 0
